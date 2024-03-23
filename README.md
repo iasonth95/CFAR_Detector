@@ -5,14 +5,14 @@ angle and range, it will receive an echo, as shown
 
  Doppler effect and Doppler radars
  
-![Radar](../img/radar.PNG)
+![Radar](doc/radar.PNG)
 
 The task at hand at the receiver is to decide if a target is present at a particular range. Therefore, it creates a 
 so-called range map, obtained by sampling the received signal after some processing. 
 
 Range map example:
 
-![Range](../img/rangemap.PNG)
+![Range](doc/rangemap.PNG)
 
 ## Doppler effect and Doppler radars
 
@@ -20,7 +20,7 @@ The Doppler effect describes the difference between the observed frequency and t
 wave when the source moves relative to the observer. The received frequency is higher when the source moves 
 towards you and lower when moving away. 
 
-![Doppler_effect](../img/doppler_effect.jpg)
+![Doppler_effect](doc/doppler_effect.jpg)
 
 A Doppler radar is a special radar that utilizes the Doppler effect to produce velocity data about objects at a 
 distance. Regular radars send out pulses of radio waves and detect the returned pulses. The time difference 
@@ -62,7 +62,7 @@ as:
 where the CFAR constant is a function of the desired . is the estimated statistics from the leading and 
 lagging windows which makes the threshold adaptive. 
 
-![CFAR_Arch](../img/CFAR_architecture.PNG)
+![CFAR_Arch](doc/CFAR_architecture.PNG)
 
 ## Visualize a real-life dataset
 
@@ -73,5 +73,5 @@ correspondoing range values are provided in the range vector. The consecutive me
 obtained by transmitting a radar signal ever milisecond (variable Ts). The time axis for the consecutive 
 measurements is referred to as slow time.
 
-![Doppler_Radar](../img/doppler_radar.PNG)
-![RangeDoppler](../img/radar_range.PNG)
+![Doppler_Radar](doc/doppler_radar.PNG)
+![RangeDoppler](doc/radar_range.PNG)
