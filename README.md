@@ -20,7 +20,8 @@ The Doppler effect describes the difference between the observed frequency and t
 wave when the source moves relative to the observer. The received frequency is higher when the source moves 
 towards you and lower when moving away. 
 
-![Doppler_effect](doc/doppler_effect.jpg)
+<!-- ![Doppler_effect](doc/doppler_effect.jpg) -->
+<img src="doc/doppler_effect.jpg" alt="Doppler_effect" width="477" height="224">
 
 A Doppler radar is a special radar that utilizes the Doppler effect to produce velocity data about objects at a 
 distance. Regular radars send out pulses of radio waves and detect the returned pulses. The time difference 
